@@ -19,5 +19,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build salah_react_website.surge.sh --token ${{ secrets.SURGE_TOKEN_KEY }}
+        run: surge ./build salah_react_website.surge.sh --token $ {{ secrets.SURGE_TOKEN_KEY }}
 
